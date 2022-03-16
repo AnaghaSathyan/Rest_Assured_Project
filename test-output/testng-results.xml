@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="9" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9991" started-at="2022-03-16T04:15:32Z" finished-at="2022-03-16T04:15:42Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9991" started-at="2022-03-16T04:15:32Z" finished-at="2022-03-16T04:15:42Z">
+      <class name="Rest_Assured.Rest_Assured.Rest_Assured">
+        <test-method status="PASS" signature="createUser(org.testng.ITestContext, org.testng.ITestContext)[pri:0, instance:Rest_Assured.Rest_Assured.Rest_Assured@79b06cab]" name="createUser" duration-ms="3870" started-at="2022-03-16T04:15:32Z" finished-at="2022-03-16T04:15:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6c80d78a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@6c80d78a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="Login(org.testng.ITestContext, org.testng.ITestContext)[pri:0, instance:Rest_Assured.Rest_Assured.Rest_Assured@79b06cab]" name="Login" duration-ms="1617" started-at="2022-03-16T04:15:36Z" depends-on-methods="Rest_Assured.Rest_Assured.Rest_Assured.createUser" finished-at="2022-03-16T04:15:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6c80d78a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@6c80d78a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="Modify(org.testng.ITestContext, org.testng.ITestContext)[pri:0, instance:Rest_Assured.Rest_Assured.Rest_Assured@79b06cab]" name="Modify" duration-ms="1458" started-at="2022-03-16T04:15:37Z" depends-on-methods="Rest_Assured.Rest_Assured.Rest_Assured.createUser" finished-at="2022-03-16T04:15:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6c80d78a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@6c80d78a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Modify -->
+        <test-method status="PASS" signature="Logout()[pri:0, instance:Rest_Assured.Rest_Assured.Rest_Assured@79b06cab]" name="Logout" duration-ms="1503" started-at="2022-03-16T04:15:39Z" depends-on-methods="Rest_Assured.Rest_Assured.Rest_Assured.Login" finished-at="2022-03-16T04:15:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="Delete(org.testng.ITestContext)[pri:0, instance:Rest_Assured.Rest_Assured.Rest_Assured@79b06cab]" name="Delete" duration-ms="1480" started-at="2022-03-16T04:15:40Z" depends-on-methods="Rest_Assured.Rest_Assured.Rest_Assured.Logout" finished-at="2022-03-16T04:15:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6c80d78a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Delete -->
+      </class> <!-- Rest_Assured.Rest_Assured.Rest_Assured -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
